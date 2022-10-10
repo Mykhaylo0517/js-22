@@ -9,7 +9,6 @@
 
 function findMin() {
     let min = 9999999999999;
-    console.log(min);
     for (let i = 0; i < arguments.length; i++) {
          if (min > arguments[i]) {
             min = arguments[i];
